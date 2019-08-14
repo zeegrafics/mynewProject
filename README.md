@@ -1,1 +1,2 @@
-# mynewProject
+# myProject
+ 
