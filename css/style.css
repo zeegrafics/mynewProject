@@ -4,6 +4,37 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+header {
+    background-color:#FFE3C4;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.container {
+    padding: 0 15px;
+  }
+.logo{
+    max-width: 250px;
+     
+ }
+nav > ul {
+    list-style-type: none;
+    padding:0;
+}
+nav > ul > li {
+    display:inline-block;
+}
+nav > ul > li >a {
+    padding: 0 15px;
+    font-weight: 700;
+    color:#4a4a4a;
+    width:100%;
+}
+nav > ul > li >a:visited {
+    
+    color:#fd4644;
+    
+}
 a {
     color:#d70015;
     text-decoration: none;
@@ -21,14 +52,23 @@ a:active {
 img {
     width:100%;
 }
-/*
-.img.logo{
-    width: 15%;
+
+
+main {
+    padding-top:133px;
+}
+#detail {
+    background-color:#FFE3C4;
+    padding: 10px;
+    margin: 10px;
+}
+
+#dtail h1 {
+    width:100%;
+   
     
 }
-.img.intro {
-    width:5%;
-} */
+
 .button {
     display: inline-block;
     border-color: #333333;
@@ -45,6 +85,10 @@ img {
     opacity: 0.8;
     text-decoration: none;
 }
+.button:visited {
+    color:#ffffff;
+    background-color: #ff7f50;
+}
 .button.contact {
     background-color: transparent;
     color: #333333;
@@ -53,5 +97,11 @@ img {
 .button.contact:hover {
     background-color:#ff7f50;
     color:#ffffff;
+}
 
+footer {
+    background-color:#FFE3C4;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
