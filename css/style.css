@@ -98,7 +98,9 @@ main {
     background-color:#ff7f50;
     color:#ffffff;
 }
-
+.textcenter {
+    text-align: center;
+}
 footer {
     background-color:#FFE3C4;
     padding: 10px;
